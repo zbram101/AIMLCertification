@@ -8,6 +8,65 @@ This project analyzes customer behavior regarding coupon acceptance using data f
 
 **Notebook**: [prompt.ipynb](./prompt.ipynb)
 
+## Getting Started
+
+### Prerequisites
+
+- Python 3.7 or higher
+- Jupyter Notebook or JupyterLab
+- Git (for cloning the repository)
+
+### Installation Steps
+
+1. **Clone the repository**
+
+   ```bash
+   git clone git@github.com:zbram101/AIMLCertification.git
+   cd AIMLCertification
+   ```
+
+2. **Create a virtual environment (recommended)**
+
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   ```
+
+3. **Install required dependencies**
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **Download the dataset**
+
+   - Download `coupons.csv` from the UCI Machine Learning repository
+   - Place it in a `data/` directory within the project folder
+   - Ensure the file path matches the code: `data/coupons.csv`
+
+5. **Launch Jupyter Notebook**
+
+   ```bash
+   jupyter notebook
+   ```
+
+6. **Open and run the analysis**
+   - Open `prompt.ipynb` in Jupyter
+   - Run all cells to reproduce the analysis
+   - View the visualizations and findings
+
+### Project Structure
+
+```
+AIMLCertification/
+├── README.md
+├── requirements.txt
+├── .gitignore
+├── prompt.ipynb
+└── data/
+    └── coupons.csv
+```
+
 ## Key Findings
 
 ### Overall Acceptance Rate
